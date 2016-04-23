@@ -1,0 +1,39 @@
+git submodule update --init --recursive
+
+YouCompleteMe: 
+sudo apt install python-dev
+./install.py -h
+./install.py --clang-completer --gocode-completer
+
+Ubuntu alias:
+~/.bash_alias
+eg:
+set sua="sudo update-alternatives"
+
+opem-vm-tool
+sudo apt install open-vm-tools-desktop
+
+sudo apt search
+
+C-r: search bash history
+C-g: exit search bash history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
