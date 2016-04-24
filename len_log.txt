@@ -18,22 +18,17 @@ sudo apt search
 C-r: search bash history
 C-g: exit search bash history
 
+github ssh:
+generating rsa key:
+ssh-keygen -t rsa -b 4096 -C "smalnote@gmail.com"
+ssh-add ~/.ssh id_rsa
+cat ~/.id_rsa.pub
+add content of ~/.id_rsa.pub to github
 
+Test ssh connection:
+ssh -T git@github.com
 
+Set git connection method to ssh:
+git remote set-url origin git@github.com:{username}/{repos}.git
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+git push -u origin master
