@@ -32,3 +32,7 @@ Set git connection method to ssh:
 git remote set-url origin git@github.com:{username}/{repos}.git
 
 git push -u origin master
+
+
+mvn archetype:generate -DgroupId=com.smalnote -DartifactId=hello \
+    -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
