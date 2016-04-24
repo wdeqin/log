@@ -6,7 +6,7 @@ sudo apt install python-dev
 ./install.py --clang-completer --gocode-completer
 
 Ubuntu alias:
-~/.bash_alias
+~/.bash_aliases
 eg:
 set sua="sudo update-alternatives"
 
@@ -36,3 +36,4 @@ git push -u origin master
 
 mvn archetype:generate -DgroupId=com.smalnote -DartifactId=hello \
     -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
