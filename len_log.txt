@@ -40,3 +40,6 @@ mvn archetype:generate -DgroupId=com.smalnote -DartifactId=hello \
 
 Mac font Monaco:
 https://github.com/cstrap/monaco-font
+
+Fangqian:
+www.gaeproxy.cn
