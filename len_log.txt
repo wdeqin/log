@@ -37,3 +37,6 @@ git push -u origin master
 mvn archetype:generate -DgroupId=com.smalnote -DartifactId=hello \
     -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
+
+Mac font Monaco:
+https://github.com/cstrap/monaco-font
