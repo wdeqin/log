@@ -42,3 +42,9 @@ mvn archetype:generate -DgroupId=com.smalnote -DartifactId=hello \
 lsb_release -a
 cat /etc/issue
 uname -r
+
+Mac font Monaco:
+https://github.com/cstrap/monaco-font
+
+Fangqian:
+www.gaeproxy.cn
