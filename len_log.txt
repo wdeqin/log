@@ -48,3 +48,13 @@ https://github.com/cstrap/monaco-font
 
 Fangqian:
 www.gaeproxy.cn
+
+
+//definition
+:cvt 1920 1080 60
+>> MODE_LINE
+:xrandr --newmode MODE_LINE
+:xrandr -q 
+>> MONITOR_NNAME
+:xrandr --addmode MONITOR_NAME MODE 
+>> change definition setting
