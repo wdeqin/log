@@ -58,3 +58,12 @@ www.gaeproxy.cn
 >> MONITOR_NNAME
 :xrandr --addmode MONITOR_NAME MODE 
 >> change definition setting
+
+git submodule --init --recursive && git submodule --update --recursive 
+git submodule update --init --recursive
+
+YCM:
+bundle/YouCompleteMe/
+sudo apt install python-dev
+sudo apt install vim-gnome-py2
+./install.py --clang-completer --gocode-completer
