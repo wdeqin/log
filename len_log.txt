@@ -74,7 +74,7 @@ ONLY_FULL_GROUP_BY,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
 
 pyenv
 sudo apt install
-openssl libssl-dev
+openssl libssl-dev libreadline-dev
 sqlite3 libsqlite3-dev
 bzip2 libbz2-dev
 python-dev build-essential
