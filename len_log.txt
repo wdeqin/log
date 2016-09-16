@@ -67,3 +67,34 @@ bundle/YouCompleteMe/
 sudo apt install python-dev
 sudo apt install vim-gnome-py2
 ./install.py --clang-completer --gocode-completer
+
+ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION 
+ONLY_FULL_GROUP_BY,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+
+pyenv
+sudo apt install
+openssl libssl-dev
+sqlite3 libsqlite3-dev
+bzip2 libbz2-dev
+python-dev build-essential
+
+curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+~/.pyenv/cache
+https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
+
+pyenv install 3.5.2
+pyenv uninstall 3.5.2
+
+switch pythone version
+pyenv global 3.5.2
+
+pyenv virtualenv 3.5.2
+pyenv activate
+
+switch to system evn
+pyenv deactivate
+
+remove env
+rm -rf ~/python/versions/3.5.2
+
