@@ -89,8 +89,8 @@ pyenv uninstall 3.5.2
 switch pythone version
 pyenv global 3.5.2
 
-pyenv virtualenv 3.5.2
-pyenv activate
+pyenv virtualenv 3.5.2 env352
+pyenv activate env352
 
 switch to system evn
 pyenv deactivate
