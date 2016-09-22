@@ -95,6 +95,14 @@ pyenv activate env352
 switch to system evn
 pyenv deactivate
 
+show py versions
+pyenv versions
+
 remove env
 rm -rf ~/python/versions/3.5.2
 
+
+npm config ls -l
+npm config set ~/.npm-global
+npm install -g npm
+npm install -g typescript
