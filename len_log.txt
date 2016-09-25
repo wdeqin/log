@@ -106,3 +106,11 @@ npm config ls -l
 npm config set ~/.npm-global
 npm install -g npm
 npm install -g typescript
+
+export NPM_CONFIG_PREFIX=~/.npm-global
+export NODE_PATH=$NPM_CONFIG_PREFIX/lib/node_modules
+export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
+
+git submodule add https://github.com/ternjs/tern_for_vim.git bundle/tern_for_js
+cd $VIM/bundle/tern_for_js
+npm install  // install all dependency package defined in package.json
