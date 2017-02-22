@@ -114,3 +114,6 @@ export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
 git submodule add https://github.com/ternjs/tern_for_vim.git bundle/tern_for_js
 cd $VIM/bundle/tern_for_js
 npm install  // install all dependency package defined in package.json
+
+
+/usr/lib/node_modules
