@@ -117,3 +117,10 @@ npm install  // install all dependency package defined in package.json
 
 
 /usr/lib/node_modules
+
+gnome-shell --version
+gnome-session --version
+
+AngularJS: Explicitly use injector
+  injector = ReflectiveInjector.resolveAndCreate([Car, Engine, Tires]);
+  let car = injector.get(Car);
